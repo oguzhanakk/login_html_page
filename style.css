@@ -6,7 +6,7 @@ main {
 	gap:90px;
 	z-index:1;
 }
-.main-left {
+.ana-kisim {
 	display:flex;
 	flex-direction:column;
 	align-items:center;
@@ -17,15 +17,15 @@ header {
 	flex-direction:column;
 	align-items:center;
 }
-.main-title {
+.ana-baslik {
 	font-family:'Smooch Sans',sans-serif;
 	font-size:130px;
 }
-.under-title {
+.alt-baslik {
 	font-family:'Poppins',sans-serif;
 	margin-top:-20px;
 }
-.form-login {
+.giris-form {
 	display:flex;
 	flex-direction:column;
 	align-items:center;
@@ -42,7 +42,7 @@ input {
 	width:400px;
 	border:none;
 }
-.next-b {
+.next_butonu {
 	background-color:#1e1e1e;
 	color:white;
 	font-family:'Smooch Sans',sans-serif;
@@ -59,48 +59,48 @@ input {
 		background-color:#708090;
 	}
 }
-.next-b a:link {
+.next_butonu a:link {
 	text-decoration:none;
 	color:white;
 }
-.next-b a:visited {
+.next_butonu a:visited {
 	text-decoration:none;
 	color:white;
 }
-.form-login-other {
+.diger_form_giris {
 	display:flex;
 	flex-direction:column;
 	align-items:center;
 	gap:20px;
 }
-.login-other {
+.giris_2 {
 	display:flex;
 	align-items:center;
 	justify-content:center;
 	gap:6px;
 }
-.other-line {
+.giris_cizgisi {
 	padding:0.7px;
 	width:120px;
 	background-color:#e5e5e5;
 }
-.other-text-1 {
+.diger-text-1{
 	font-family:'Poppins',sans-serif;
 	font-weight: 700;
 	font-size:15px;
 }
-.other-text-2 {
+.diger-text-2 {
 	font-family:'Poppins',sans-serif;
 	font-weight: 300;
 	font-size:15px;
 }
-.login-other-button {
+.diger-login-butonu {
 	display:flex;
 	flex-direction:column;
 	align-items:center;
 	gap:20px;
 }
-.login-sm {
+.giris {
 	background-color:white;
 	padding:10px;
 	width:400px;
@@ -108,13 +108,13 @@ input {
 	border-radius:15px;
 	border:1px solid black;
 }
-.login-sm-content {
+.giris-icerigi {
 	display:flex;
 	align-items:center;
 	justify-content:center;
 	gap:10px;
 }
-.login-sm-text {
+.giris-metni {
 	font-family:'Poppins',sans-serif;
 	color:black;
 	text-decoration:none;
@@ -123,7 +123,7 @@ input {
 		text-decoration:none;
 	}
 }
-.login-sm-text-2 {
+.giris-metni-2 {
 	font-family:'Poppins',sans-serif;
 	font-weight: 700;
 	color:black;
