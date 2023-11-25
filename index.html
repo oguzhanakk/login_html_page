@@ -3,28 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- style.css dosyasını dahil ettik. -->
 <link rel="stylesheet" href="style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@700&display=swap" rel="stylesheet">
-<title>Web Tasarım Vize Sinav ödevi</title>
+<!-- Web sitesinin ana başlığı -->
+<title>Web Tasarim Vize Sinav ödevi</title>
 </head>
 <body>
 <main>
 	<section class="ana-kisim">
-
+		<!--Başlık kısmı html tarafı-->
 		<header>
 			<article class="ana-baslik">Welcome</article>
 			<article class="alt-baslik">We are glad to see you back with us</article>
 		</header>
-
+		
+		<!--Giris form kullanıcı adı ve şifre tarafı-->
 		<form class="giris-form">
 			<input type="text" name="kullanici_adi" placeholder="Kullanici adi">
 			<input type="password" name="sifre" placeholder="Sifre">
 			<button type="submit" class="next_butonu"><a href="">NEXT</a></button>
 		</form>
 
+		<!--Login with others tarafının section bazlı kullanımı-->
 		<section class="diger_form_giris">
 			<section class="giris_2">
 				<section class="giris_cizgisi">
@@ -34,8 +38,10 @@
 				<section class="giris_cizgisi">
 				</section>
 			</section>
+			<!-- Google ve facebook tarafını tek section içinde birleştirdik. -->
 			<section class="diger-login-butonu">
 				<button type="submit" class="giris">
+				<!-- Google ile giris yap kısmı -->
 				<nav class="giris-icerigi">
 					<img src="google-icon.svg" alt="Google Icon">
 					<a href="" class="giris-metni">Login with</a>
@@ -43,6 +49,7 @@
 				</nav>
 				</button>
 				<button type="submit" class="giris">
+				<!-- Facebook ile giris yap kısmı -->
 				<nav class="giris-icerigi">
 					<img src="facebook-icon.svg">
 					<a href="" class="giris-metni">Login with</a>
@@ -51,13 +58,15 @@
 				</button>
 			</section>
 		</section>
-		
+
 	</section>
 	<figure>
+		<!-- Burda png dosyasını ekledik -->
 		<img src="Rectangle.png">
 	</figure>
 </main>
 
+<!-- Burda png dosyasını ekledik -->
 <figure class="vector"><img src="Vector.png"></figure>
 </body>
 </html>
